@@ -1,0 +1,58 @@
+:root {
+    /* COLORS */
+
+    /* brand */
+    --sun: #FFCD1E;
+    --sky-mid: #06B6D4;
+    --sky-light:#67E8F9;
+    --joy-mid: #DB2777;
+    --joy-light: #F472B6;
+    --leaf-mid: #15A34A;
+
+
+    /* base */
+    --text-color: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+
+    /* TYPOGRAPHY */
+    --syne-ff: "Syne", serif;
+    --montserrat-ff: "Montserrat", serif;
+
+
+    /* Font-sizes */
+    --text-xl: 4rem;
+    --text-lg: 2.5rem;
+    --text-md: 1rem;
+    --text-sm: 0.875rem;
+
+    
+    /* Line-heights */
+    --line-height-xl: 1.5;
+    --line-height-lg: 1.25;
+    --line-height-md: 1.2;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font: 500 1rem/1.5 var(--montserrat-ff);
+}
+
+h1, h2 {
+    font-family: var(--syne-ff);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: var(--text-xl);
+    line-height: var(--line-height-lg);
+}
+
+h2 {
+    font-size: var(--text-lg);
+    line-height: var(--line-height-md);
+}
