@@ -42,6 +42,10 @@ html {
     font: 500 1rem/1.5 var(--montserrat-ff);
 }
 
+body {
+    background-color: var(--background);
+}
+
 h1, h2 {
     font-family: var(--syne-ff);
     font-weight: bold;
